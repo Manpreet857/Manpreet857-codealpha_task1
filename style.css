@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+
+}
+body{
+    background: linear-gradient(178deg, rgba(101, 224, 205, 1) 0%, rgba(75, 128, 230, 1) 100%);
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#card{
+    background-color: white;
+    height:auto;
+    width:21rem;
+    padding: 10px 0px;
+
+}
+h4{
+    font-size: 26px;
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    height:30px;
+ padding: 0px 0px 0px 2px;
+width: 16rem;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin:10px 0px 10px 23px;
+    background-color: #c4c4d6;
+    height: auto;
+    width: 10rem;
+    padding: 6px;
+
+}
+ #add {
+   color:#8574b9;;
+   transform:translate(5px,2px);
+   font-size:35px;
+  
+ }
+
+  #add:hover {
+    color: #6c41a9; /* Change this to any color you like */
+   
+  }
+  #delete{
+       font-size: 30px;
+    transform: translate(4px, 12px);
+    border: 1px solid black;
+    height: 2rem;
+    margin: 0px 4px;
+    padding: 4px;
+    border-radius: 10px;}
+  #delete:hover{
+    color:red;
+  }
+  .list{
+    display: flex;
+  }
+  #edit{    font-size: 30px;
+    transform: translate(4px, 12px);
+    border: 1px solid black;
+    height: 2rem;
+    margin: 0px 4px;
+    padding: 4px;
+    border-radius: 10px;
+    color:black;
+  }
+  #edit:hover{
+    color:yellow;
+  }
+  #check{    font-size: 30px;
+    transform: translate(4px, 12px);
+    border: 1px solid black;
+    height: 2rem;
+    margin: 0px 4px;
+    padding: 4px;
+    border-radius: 10px;
+    color: black;
+  }
+  #check:hover{
+    color:greenyellow;
+  }
